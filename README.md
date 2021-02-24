@@ -1,0 +1,2 @@
+# YXCollegeSDK
+YXCollegeSDK.framework是一款致力于服务用户学习培训的sdk
