@@ -1,7 +1,8 @@
 # YXCollegeSDK
 一、营销学院组件
-YXCollegeSDK.framework为营销学院组件，引入工程后，
-在Build Phase - Copy Bundle Resources下添加
+YXCollegeSDK.framework为营销学院组件
+pod 'YXCollegeSDK' 
+YXCollegeSDK依赖于VHClassSDK,所以不需要下载VHClassSDK,直接pod 'YXCollegeSDK' 即可
 
 二、微吼SDK
 pod 'VHClassSDK'  #微吼sdk
@@ -23,7 +24,6 @@ pod 'MBProgressHUD'
 pod 'IQKeyboardManager'
 pod 'JSONModel'
 pod ‘MJExtension'
-pod 'VHClassSDK'  #微吼sdk
 
 四、组件的使用
 1、#import <YXCollegeSDK/JSHMcService.h>
