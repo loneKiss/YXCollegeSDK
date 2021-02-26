@@ -12,7 +12,7 @@ spec.platform     = :ios, "9.0"
 spec.source       = { :git => "https://github.com/loneKiss/YXCollegeSDK.git", :tag => spec.version }
 spec.resources       = ['YXCollegeSdkReadme.md']
 spec.vendored_frameworks = "YXCollegeSDK/framework/YXCollegeSDK.framework"
-spec.dependency 'VHClassSDK' ,'3.6.2' #微吼sdk,所依赖的第三方库，没有就不用写
+spec.dependency "VHClassSDK" ,"3.6.2" #微吼sdk,所依赖的第三方库，没有就不用写
 spec.requires_arc    = true
 spec.resource_bundles = {
     'YXCollegeSDK' => ['YXCollegeSDK/Assets/*.png'],
