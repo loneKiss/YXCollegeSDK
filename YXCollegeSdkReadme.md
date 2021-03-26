@@ -23,7 +23,9 @@ pod 'SDWebImage'
 pod 'MBProgressHUD'
 pod 'IQKeyboardManager'
 pod 'JSONModel'
-pod ‘MJExtension'
+pod 'MJExtension'
+pod 'MJRefresh'
+pod  'Masonry'
 
 四、组件的使用
 1、#import <YXCollegeSDK/JSHMcService.h>
