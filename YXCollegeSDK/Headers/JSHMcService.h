@@ -25,7 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *eduId;
 @property (nonatomic, copy) NSString *h5Path;
 @property (nonatomic, copy) NSString *code;
-/** app终端 A:客户端 B:员工端 C:直销员端 */
+/** app终端 A:客户端 B:员工端 C:直销员端 D:售后端 */
 @property (nonatomic, copy) NSString *appDevice;
 @property (nonatomic, copy) void (^didEnterLive)(void);
 @property (nonatomic, copy) void (^didExitLive)(void);
@@ -40,14 +40,14 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param secretKey 微吼secret
 + (void)setupWithAppKey:(NSString *)appkey appSecretKey:(NSString *)secretKey;
 
-/// 客户端/员工端/直销员端跳转营销学院V2.0
+/// 客户端/员工端/直销员端/售后端跳转营销学院V2.0
 /// @param params 参数:{@"expid":xxx,
 ///                    @"accessToken":xxx,
 ///                    @"refreshToken":xxx,
 ///                    @"studyTerminalCode":xxx,
 ///                    @"otherParams":@"&firstEnter=false"};
 /// @param path 具体h5路径,如h5/#/public/home?expurl=public,默认传nil
-/// @param appDevice A:客户端 B:员工端 C:直销员端
+/// @param appDevice A:客户端 B:员工端 C:直销员端 D:售后端
 /// @param versionType 0 生产、1 pre、-1 dev、2 dev2
 /// @return 营销学院controller
 + (id)startWithParams:(nonnull NSDictionary *)params h5Path:(nullable NSString *)path deviceType:(nullable NSString *)appDevice projectVersion:(NSInteger)versionType;
