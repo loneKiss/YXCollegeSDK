@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "YXCollegeSDK"
-spec.version      = "1.1.7"
+spec.version      = "1.1.8"
 spec.summary      = "YXCollegeSDK for IOS"
 spec.description  = "YXCollegeSDK.framework是一款致力于服务用户培训学习的sdk"
 spec.homepage     = "https://github.com/loneKiss/YXCollegeSDK"
@@ -13,11 +13,13 @@ spec.source       = { :git => "https://github.com/loneKiss/YXCollegeSDK.git", :t
 spec.resources       = ['YXCollegeSdkReadme.md']
 spec.dependency "VHClassSDK" #微吼sdk,所依赖的第三方库，没有就不用写
 
-if ENV['WYL']
-    spec.vendored_frameworks = "YXCollegeSDK/Frameworks/YXCollegeSDK.framework"
+
+if ENV['use_source']
+    spec.vendored_frameworks = 'YXCollegeSDK/Frameworks/YXCollegeSDK.framework'
 else
-    spec.vendored_frameworks = "YXCollegeSDK/Frameworks/*.framework"
+    spec.vendored_frameworks = 'YXCollegeSDK/Frameworks/*.framework'
 end
+
 
 spec.requires_arc    = true
 
