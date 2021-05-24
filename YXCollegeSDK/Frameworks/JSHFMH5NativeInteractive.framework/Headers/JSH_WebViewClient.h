@@ -13,15 +13,24 @@
 #import "JSH_WebViewPage.h"
 #import "JSH_WebViewConfigDelegate.h"
 #import "JSH_MessageCallbackDelegate.h"
+#import "JSH_ExtensionMethodsDelegate.h"
 
 @class JSH_MidWebViewController;
 
+
+
 @interface JSH_WebViewClient : NSObject<JSH_MessageCallbackDelegate,WKNavigationDelegate>
+@property (nonatomic, weak) JSH_MidWebViewController *webVC;
+
+
 
 +(id<JSH_WebViewConfigDelegate>)getConfig;
 +(void)setConfig:(id<JSH_WebViewConfigDelegate>)config;
++(id<JSH_ExtensionMethodsDelegate>)getUploadVideo;
++(void)setUploadVideo:(id<JSH_ExtensionMethodsDelegate>) delegate;
 
-+(void)load:(NSString *)url parent:(JSH_BaseVC *)parentVC pageBack:(void(^)(NSDictionary * data))pageBack;
+
++(void)load:(NSString *)url parent:(UIViewController *)parentVC pageBack:(void(^)(NSDictionary * data))pageBack;
 
 - (void)pageCallback:(NSString *)callbackId msg:(NSString *)msg data:(NSDictionary *)data;
 

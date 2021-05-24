@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "YXCollegeSDK"
-spec.version      = "1.2.1"
+spec.version      = "1.2.2"
 spec.summary      = "YXCollegeSDK for IOS"
 spec.description  = "YXCollegeSDK.framework是一款致力于服务用户培训学习的sdk"
 spec.homepage     = "https://github.com/loneKiss/YXCollegeSDK"
@@ -19,6 +19,7 @@ else
 end
 
 spec.dependency "VHClassSDK" #微吼sdk,所依赖的第三方库，没有就不用写
+spec.dependency "VODUpload"  #阿里云上传视频第三方库
 
 spec.requires_arc    = true
 
