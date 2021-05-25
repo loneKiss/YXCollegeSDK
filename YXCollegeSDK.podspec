@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "YXCollegeSDK"
-spec.version      = "1.2.4"
+spec.version      = "1.2.5"
 spec.summary      = "YXCollegeSDK for IOS"
 spec.description  = "YXCollegeSDK.framework是一款致力于服务用户培训学习的sdk"
 spec.homepage     = "https://github.com/loneKiss/YXCollegeSDK"
@@ -17,6 +17,8 @@ if ENV['USE_SOURCE']
 else
     spec.vendored_frameworks = 'YXCollegeSDK/Frameworks/*.framework'
 end
+
+spec.dependency 'VODUpload'  #阿里云视频上传sdk
 
 spec.dependency 'VHClassSDK' #微吼sdk
 
