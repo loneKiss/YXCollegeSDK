@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "YXCollegeSDK"
-spec.version      = "1.2.6"
+spec.version      = "1.2.7"
 spec.summary      = "YXCollegeSDK for IOS"
 spec.description  = "YXCollegeSDK.framework是一款致力于服务用户培训学习的sdk"
 spec.homepage     = "https://github.com/loneKiss/YXCollegeSDK"
@@ -26,9 +26,11 @@ spec.requires_arc    = true
 
 spec.source_files = 'YXCollegeSDK/Headers/*.h'
 
+# 图片，其他资源文件存放的路径，需要注意的是，xib，nib也属于资源文件
 spec.resource_bundles = {
     'YXCollegeSDK' => ['YXCollegeSDK/Resources/*'],
   }
+  
 spec.pod_target_xcconfig = {
     'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/**',
     'HEADER_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/**',
