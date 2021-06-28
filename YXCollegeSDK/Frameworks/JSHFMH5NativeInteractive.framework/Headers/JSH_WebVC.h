@@ -6,11 +6,11 @@
 //  Copyright © 2020 巨商汇. All rights reserved.
 //
 
-#import "JSH_BaseVC.h"
+#import <JSHFMBase/LCBaseViewController.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface JSH_WebVC : JSH_BaseVC
+@interface JSH_WebVC : LCBaseViewController
 
 @property (nonatomic, copy) NSString * direct_url;
 

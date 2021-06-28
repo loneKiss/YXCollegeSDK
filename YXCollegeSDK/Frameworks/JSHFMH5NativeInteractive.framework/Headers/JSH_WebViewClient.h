@@ -6,7 +6,6 @@
 //  Copyright © 2018年 cloudcns. All rights reserved.
 //
 
-#import "JSH_BaseVC.h"
 #import <WebKit/WebKit.h>
 
 #import "JSH_WebViewMessage.h"
@@ -26,8 +25,14 @@
 
 +(id<JSH_WebViewConfigDelegate>)getConfig;
 +(void)setConfig:(id<JSH_WebViewConfigDelegate>)config;
+
+// 上传视频
 +(id<JSH_ExtensionMethodsDelegate>)getUploadVideo;
 +(void)setUploadVideo:(id<JSH_ExtensionMethodsDelegate>) delegate;
+
+// 设置代理
++(id<JSH_ExtensionMethodsDelegate>)getExtensionDelegate;
++(void)setExtensionDelegate:(id<JSH_ExtensionMethodsDelegate>) delegate;
 
 
 +(void)load:(NSString *)url parent:(UIViewController *)parentVC pageBack:(void(^)(NSDictionary * data))pageBack;

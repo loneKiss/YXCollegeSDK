@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "JSH_BaseVC.h"
+#import <UIKit/UIKit.h>
 
 @protocol JSH_SchemeResolverDelegate<NSObject>
 @required
--(bool)isAvailable:(JSH_BaseVC *)target
+-(bool)isAvailable:(UIViewController *)target
                url:(NSString *)url;
--(void)invoke:(JSH_BaseVC *)target
+-(void)invoke:(UIViewController *)target
           url:(NSString *)url;
 @end

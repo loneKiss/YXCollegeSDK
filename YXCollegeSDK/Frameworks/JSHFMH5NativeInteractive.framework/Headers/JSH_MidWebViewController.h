@@ -6,10 +6,10 @@
 //  Copyright © 2018年 cloudcns. All rights reserved.
 //
 
-#import "JSH_BaseVC.h"
+#import <JSHFMBase/LCBaseViewController.h>
 #import "JSH_WebViewClient.h"
 
-@interface JSH_MidWebViewController : JSH_BaseVC<WKUIDelegate>
+@interface JSH_MidWebViewController : LCBaseViewController<WKUIDelegate>
 {
      
     JSH_WebViewClient *_JSH_WebViewClient;

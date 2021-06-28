@@ -7,21 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 #import "JSH_WebViewMessage.h"
 #import "JSH_MessageCallbackDelegate.h"
-#import "JSH_BaseVC.h"
-
-
 
 @interface JSH_BaseComponent : NSObject
 
 
 /**  <#mark#> */
-@property (nonatomic, weak) JSH_BaseVC *target;
+@property (nonatomic, weak) UIViewController *target;
 /**  <#mark#> */
 @property (nonatomic, weak) id<JSH_MessageCallbackDelegate> callback;
 
--(instancetype)init:(JSH_BaseVC *)target
+-(instancetype)init:(UIViewController *)target
            callback:(id<JSH_MessageCallbackDelegate>)callback;
 @end
