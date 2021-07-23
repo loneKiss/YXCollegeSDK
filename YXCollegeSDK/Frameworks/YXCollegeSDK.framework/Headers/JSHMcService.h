@@ -62,6 +62,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// @return 营销学院controller
 + (id)marketingPlatformStartWithParams:(nonnull NSDictionary *)params h5Path:(nullable NSString *)path projectVersion:(NSInteger)versionType;
 
+/**
+ @brief 获取sdk版本号
+ */
++ (NSString *)getSDKVersion;
+
 @end
 
 NS_ASSUME_NONNULL_END
