@@ -35,7 +35,10 @@
 +(void)setExtensionDelegate:(id<JSH_ExtensionMethodsDelegate>) delegate;
 
 
+
+
 +(void)load:(NSString *)url parent:(UIViewController *)parentVC pageBack:(void(^)(NSDictionary * data))pageBack;
++(void)load:(NSString *)url presentFromVC:(UIViewController *)parentVC pageBack:(void(^)(NSDictionary * data))pageBack;
 
 - (void)pageCallback:(NSString *)callbackId msg:(NSString *)msg data:(NSDictionary *)data;
 

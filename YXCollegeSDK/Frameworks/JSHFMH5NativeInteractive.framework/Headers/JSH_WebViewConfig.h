@@ -16,6 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
 ///**  工程接口地址设置 */
 //@property (nonatomic, copy) NSString * h5CommonUrl;
 
+/**  app名字 */
+@property (nonatomic, copy) NSString * appName;
+
 /**  登陆状态 */
 @property (nonatomic, copy) NSString * loginData;
 

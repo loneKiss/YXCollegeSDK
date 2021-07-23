@@ -11,7 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface JSH_InitInfo : NSObject
-
+/// 设置当前APP的名称
++ (void) setCurrentAPPName:(NSString *) appName;
 
 /// 设置基础信息
 /// @param loginInfo 登录信息

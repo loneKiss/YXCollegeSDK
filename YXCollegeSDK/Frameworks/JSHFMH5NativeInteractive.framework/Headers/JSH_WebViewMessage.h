@@ -15,4 +15,5 @@
 @property(strong,nonatomic,readonly)NSString *method;
 @property(strong,nonatomic,readonly)NSString *callbackId;
 @property(strong,nonatomic,readonly)NSDictionary *data;
+@property(nonatomic, assign) BOOL isPresent;
 @end
