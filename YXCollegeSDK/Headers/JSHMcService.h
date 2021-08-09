@@ -25,6 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *eduId;
 @property (nonatomic, copy) NSString *h5Path;
 @property (nonatomic, copy) NSString *code;
+@property (assign, nonatomic) BOOL shouldNeedLandscape;//是否需要横屏
 /** app终端 A:客户端 B:员工端 C:直销员端 D:售后端 */
 @property (nonatomic, copy) NSString *appDevice;
 @property (nonatomic, copy) void (^didEnterLive)(void);
@@ -35,10 +36,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) void (^WXShareImage)(NSMutableDictionary *message);
 + (instancetype)shareInstance;
 
-/// 初始化微吼直播
-/// @param appkey 微吼key
-/// @param secretKey 微吼secret
-+ (void)setupWithAppKey:(NSString *)appkey appSecretKey:(NSString *)secretKey;
 
 /// 客户端/员工端/直销员端/售后端跳转营销学院V2.0
 /// @param params 参数:{@"expid":xxx,
