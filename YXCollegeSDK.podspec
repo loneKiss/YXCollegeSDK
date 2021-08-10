@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "YXCollegeSDK"
-spec.version      = "1.3.9"
+spec.version      = "1.4.0"
 spec.summary      = "YXCollegeSDK for IOS"
 spec.description  = "YXCollegeSDK.framework是一款致力于服务用户培训学习的sdk"
 spec.homepage     = "https://github.com/loneKiss/YXCollegeSDK"
@@ -13,8 +13,7 @@ spec.source       = { :git => "https://github.com/loneKiss/YXCollegeSDK.git", :t
 spec.resources       = ['YXCollegeSdkReadme.md']
 
 if ENV['USE_SOURCE']
-    spec.vendored_frameworks = 'YXCollegeSDK/Frameworks/YXCollegeSDK.framework' , 'YXCollegeSDK/Frameworks/Masonry.framework' , 'YXCollegeSDK/Frameworks/SDWebImage.framework' , 'YXCollegeSDK/Frameworks/MJExtension.framework' , 'YXCollegeSDK/Frameworks/YYImage.framework' , 'YXCollegeSDK/Frameworks/YYWebImage.framework' , 'YXCollegeSDK/Frameworks/MBProgressHUD.framework' , 'YXCollegeSDK/Frameworks/ZLPhotoBrowser_objc.framework' , 'YXCollegeSDK/Frameworks/YBImageBrowser.framework' , 'YXCollegeSDK/Frameworks/JTCalendar.framework' , 'YXCollegeSDK/Frameworks/MJRefresh.framework' , 'YXCollegeSDK/Frameworks/pop.framework' , 'YXCollegeSDK/Frameworks/YYCache.framework'
-   
+    spec.vendored_frameworks = 'YXCollegeSDK/Frameworks/YXCollegeSDK.framework'
 else
     spec.vendored_frameworks = 'YXCollegeSDK/Frameworks/*.framework'
 end
