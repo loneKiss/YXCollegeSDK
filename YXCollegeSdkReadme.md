@@ -9,7 +9,7 @@ pod 'HDVideoClass_Remote'   #CC视频sdk
 HDVideoClass_Remote为直播所需的CC视频SDK，引入工程后，按如下配置：
 1、在TARGETS - General - Embedded Binaries下添加
 CoreTelephony.framework 、SystemConfiguration.framework 、VideoToolbox.framework
-libresolv.tbd 、libicucore.tbd 、libstdc++.6.tbd 、libz.tbd 。（Xcode 11+无Embedded Binaries，请在Frameworks，Libraries，and Embedded Content下，将VhallLiveBaseApi、WebRTC改为Embed&Sign）
+libresolv.tbd 、libicucore.tbd 、libstdc++.6.tbd 、libz.tbd 。（Xcode 11+无Embedded Binaries，请在Frameworks，Libraries，and Embedded Content下添加）
 2、添加项目依赖权限
     (1)Privacy - Camera Usage Description
     用于扫描二维码，及拍摄的时候访问相机、图像采集
