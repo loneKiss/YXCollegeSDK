@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "YXCollegeSDK"
-spec.version      = "2.0.4"
+spec.version      = "2.0.5"
 spec.summary      = "YXCollegeSDK for IOS"
 spec.description  = "YXCollegeSDK.framework是一款致力于服务用户培训学习的sdk"
 spec.homepage     = "https://github.com/loneKiss/YXCollegeSDK"
@@ -14,7 +14,7 @@ spec.resources       = ['YXCollegeSdkReadme.md']
 
 if ENV['USE_SOURCE']
     spec.vendored_frameworks = 'YXCollegeSDK/Frameworks/YXCollegeSDK.framework'
-else if ENV['USE_TYPE']
+if ENV['USE_TYPE']
     spec.vendored_frameworks = 'YXCollegeSDK/Frameworks/YXCollegeSDK.framework','YXCollegeSDK/Frameworks/JSHFMBase.framework','YXCollegeSDK/Frameworks/JSHFMH5NativeInteractive.framework'
 else
     spec.vendored_frameworks = 'YXCollegeSDK/Frameworks/*.framework'
