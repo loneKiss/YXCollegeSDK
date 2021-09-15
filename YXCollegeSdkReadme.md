@@ -41,6 +41,7 @@ pod 'YBImageBrowser','~> 3.0.9'
 pod 'JTCalendar', '~> 2.0'
 pod 'MJRefresh'
 pod 'pop'
+pod 'CustomSocketRocket','1.1.1'
 #CC视频云课堂pod
 
 四、组件的使用
