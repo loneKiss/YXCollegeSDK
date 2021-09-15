@@ -28,8 +28,15 @@ NS_ASSUME_NONNULL_BEGIN
 @property (assign, nonatomic) BOOL shouldNeedLandscape;//是否需要横屏
 /** app终端 A:客户端 B:员工端 C:直销员端 D:售后端 */
 @property (nonatomic, copy) NSString *appDevice;
+/** 进入直播课堂的回调 **/
 @property (nonatomic, copy) void (^didEnterLive)(void);
+/** 退出直播课堂的回调 **/
 @property (nonatomic, copy) void (^didExitLive)(void);
+/** 进入营销学院的回调 **/
+@property (nonatomic, copy) void (^didEnterMarketingCollege)(void);
+/** 退出营销学院的回调 **/
+@property (nonatomic, copy) void (^didExitMarketingCollege)(void);
+
 @property (nonatomic, copy) void (^logoutHandler)(void);
 @property (nonatomic, copy) void (^changeGuideStatusHandler)(void);
 /** 微信分享 */
