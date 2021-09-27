@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "YXCollegeSDK"
-spec.version      = "2.0.9"
+spec.version      = "2.1.0"
 spec.summary      = "YXCollegeSDK for IOS"
 spec.description  = "YXCollegeSDK.framework是一款致力于服务用户培训学习的sdk"
 spec.homepage     = "https://github.com/loneKiss/YXCollegeSDK"
