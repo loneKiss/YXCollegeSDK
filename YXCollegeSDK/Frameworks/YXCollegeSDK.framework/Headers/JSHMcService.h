@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface JSHMcService : NSObject
 
+/**  客户端/员工端/售后端expid  **/
 @property (nonatomic, copy) NSString *expid;
 @property (nonatomic, copy) NSString *accessToken;
 @property (nonatomic, copy) NSString *refreshToken;
