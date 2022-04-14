@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface JSHMcService : NSObject
 
+/**  客户端/员工端/售后端expid  **/
 @property (nonatomic, copy) NSString *expid;
 @property (nonatomic, copy) NSString *accessToken;
 @property (nonatomic, copy) NSString *refreshToken;
@@ -22,6 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *nickName;
 @property (nonatomic, copy) NSString *baseId;
 @property (nonatomic, copy) NSString *sourceId;
+@property (nonatomic, copy) NSString *sourceType;
 @property (nonatomic, copy) NSString *eduId;
 @property (nonatomic, copy) NSString *h5Path;
 @property (nonatomic, copy) NSString *code;
@@ -42,6 +44,12 @@ NS_ASSUME_NONNULL_BEGIN
 /** 微信分享 */
 @property (nonatomic, copy) void (^WXShareImage)(NSMutableDictionary *message);
 + (instancetype)shareInstance;
+
+// 添加通知、观察者
+- (void)addNotificationAndObserver;
+
+// 移除通知、观察者
+- (void)removeNotificationAndObserver;
 
 
 /// 客户端/员工端/直销员端/售后端跳转营销学院V2.0
