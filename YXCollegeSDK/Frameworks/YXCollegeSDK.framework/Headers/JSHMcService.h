@@ -42,7 +42,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) void (^logoutHandler)(void);
 @property (nonatomic, copy) void (^changeGuideStatusHandler)(void);
 /** 微信分享 */
-@property (nonatomic, copy) void (^WXShareImage)(NSMutableDictionary *message);
+@property (nonatomic, copy) void (^WeChatShareBlock)(NSMutableDictionary *message);
 + (instancetype)shareInstance;
 
 // 添加通知、观察者

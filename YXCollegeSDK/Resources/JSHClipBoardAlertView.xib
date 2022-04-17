@@ -113,7 +113,7 @@
                         <action selector="closeAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="xEc-0J-MPM"/>
                     </connections>
                 </button>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jsh_delete" translatesAutoresizingMaskIntoConstraints="NO" id="EwC-sD-fVE">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="study_share_alert_close_icon" translatesAutoresizingMaskIntoConstraints="NO" id="EwC-sD-fVE">
                     <rect key="frame" x="189" y="646" width="36" height="36"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="36" id="sYh-By-0Hv"/>
@@ -121,7 +121,7 @@
                     </constraints>
                 </imageView>
             </subviews>
-            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.49997008873137416" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="EwC-sD-fVE" firstAttribute="centerY" secondItem="8fX-SO-s2F" secondAttribute="centerY" id="0LN-5I-XEc"/>
                 <constraint firstAttribute="trailing" secondItem="N2N-iS-d5J" secondAttribute="trailing" constant="35" id="Uga-cq-JkM"/>
@@ -149,7 +149,7 @@
         </view>
     </objects>
     <resources>
-        <image name="jsh_delete" width="16" height="16"/>
+        <image name="study_share_alert_close_icon" width="128" height="128"/>
         <image name="study_share_course_teacher_icon" width="14" height="13.5"/>
         <image name="study_share_look_count_icon" width="13" height="11.5"/>
         <image name="study_share_member_image_icon" width="37" height="37"/>
