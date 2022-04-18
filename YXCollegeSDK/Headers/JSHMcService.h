@@ -28,7 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *h5Path;
 @property (nonatomic, copy) NSString *code;
 @property (assign, nonatomic) BOOL shouldNeedLandscape;//是否需要横屏
-/** app终端 A:客户端 B:员工端 C:直销员端 D:售后端 */
+/** app终端 A:客户端 B:员工端 C:直销员端 D:售后兵端 E:售后员工端  */
 @property (nonatomic, copy) NSString *appDevice;
 /** 进入直播课堂的回调 **/
 @property (nonatomic, copy) void (^didEnterLive)(void);
@@ -59,7 +59,7 @@ NS_ASSUME_NONNULL_BEGIN
 ///                    @"studyTerminalCode":xxx,
 ///                    @"otherParams":@"&firstEnter=false"};
 /// @param path 具体h5路径,如h5/#/public/home?expurl=public,默认传nil
-/// @param appDevice A:客户端 B:员工端 C:直销员端 D:售后端
+/// @param appDevice app终端 A:客户端 B:员工端 C:直销员端 D:售后兵端 E:售后员工端 
 /// @param versionType 0 生产、1 pre、-1 dev、2 dev2
 /// @return 营销学院controller
 + (id)startWithParams:(nonnull NSDictionary *)params h5Path:(nullable NSString *)path deviceType:(nullable NSString *)appDevice projectVersion:(NSInteger)versionType;
