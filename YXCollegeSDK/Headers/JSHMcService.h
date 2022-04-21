@@ -38,7 +38,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) void (^didEnterMarketingCollege)(void);
 /** 退出营销学院的回调 **/
 @property (nonatomic, copy) void (^didExitMarketingCollege)(void);
-
+/** 剪切板的改变次数 **/
+@property(assign,nonatomic) NSInteger changeCount;
 @property (nonatomic, copy) void (^logoutHandler)(void);
 @property (nonatomic, copy) void (^changeGuideStatusHandler)(void);
 /** 微信分享 */
