@@ -21,6 +21,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *token;
 @property (nonatomic, assign) NSInteger versionType;
 @property (nonatomic, copy) NSString *nickName;
+//当前登录账号
+@property (nonatomic, copy) NSString *huiHuiNumber;
 @property (nonatomic, copy) NSString *baseId;
 @property (nonatomic, copy) NSString *sourceId;
 @property (nonatomic, copy) NSString *sourceType;
