@@ -35,7 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSDictionary * vcParam;
 
 /**  控制器的返回值 */
-@property (nonatomic, strong) NSDictionary * vcReturnParam;
+@property (nonatomic, strong) NSDictionary * __nullable vcReturnParam;
 
 /**  h5_map */
 @property (nonatomic, strong) NSMutableDictionary * get_H5_PageMap;

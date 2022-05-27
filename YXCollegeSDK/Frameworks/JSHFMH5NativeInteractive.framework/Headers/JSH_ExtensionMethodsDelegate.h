@@ -17,6 +17,11 @@ typedef NS_ENUM(NSUInteger, JSHExtensionShareType) {
     JSHExtensionShareTypeMiniProgram // 分享小程序
 };
 
+typedef NS_ENUM(NSUInteger, JSHExtensionPayType) {
+    JSHExtensionPayTypeWeChat, // 微信支付
+    JSHExtensionPayTypeAliPay  // 支付宝支付
+};
+
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol JSH_ExtensionMethodsDelegate <NSObject>
@@ -25,8 +30,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)jsh_uploadVideo:(id) message client:(JSH_WebViewClient *) client;
 
 /// 分享
-- (void)jsh_shareType:(JSHExtensionShareType) type shareData:(NSDictionary *) dataDict;
+- (void)jsh_shareType:(JSHExtensionShareType) type shareData:(NSDictionary *) dataDict client:(nonnull JSH_WebViewClient *)client;
 
+/// 支付
+- (void)jsh_pay:(id) message type:(JSHExtensionPayType)type  client:(nonnull JSH_WebViewClient *)client;
 
 @end
 

@@ -14,6 +14,10 @@
      
     JSH_WebViewClient *_JSH_WebViewClient;
 }
+ 
+@property (nonatomic,strong) WKWebView * webView;
 @property (nonatomic, assign) UIStatusBarStyle statusBarStyle;
 @property (nonatomic,strong)JSH_WebViewPage *webViewBean;
+
+- (void) nativeAndH5InteractiveExtensionsWithMessage:(JSH_WebViewMessage *)message;
 @end

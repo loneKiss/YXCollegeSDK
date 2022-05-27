@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/JSH_ExtensionMethodsDelegate.h</key>
 		<data>
-		xNAT7c6SleNM1uvUyPoMlyG7rsE=
+		k14lUa7ewpJ5qqMwfuhCgqH3ZsU=
 		</data>
 		<key>Headers/JSH_InitInfo.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/JSH_MidWebViewController.h</key>
 		<data>
-		LcTCZWBrAoCXWDiMNTG8qXvreF4=
+		lUF1uo4ciOE1Hx0VMn/2AYbWJsI=
 		</data>
 		<key>Headers/JSH_Navigate.h</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/JSH_WebViewConfig.h</key>
 		<data>
-		ghyUgUMjZlONbzk/MMefSarjPXA=
+		cf72p6CyWgfSm9JdY++Goedw8Os=
 		</data>
 		<key>Headers/JSH_WebViewConfigDelegate.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		NYRuIWmgEpabRLwwY7eX2xXDyU0=
+		12ClPltfAMawYYznoXCo4i4s32Q=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -105,11 +105,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xNAT7c6SleNM1uvUyPoMlyG7rsE=
+			k14lUa7ewpJ5qqMwfuhCgqH3ZsU=
 			</data>
 			<key>hash2</key>
 			<data>
-			MeHv3NXBlxVDfSy+qIHpb+S9dxjbHDfi60AbNNPd6pc=
+			wTCoJqb7DdcNhfZ1xihU8NP+/A7pPIiU07BsC8OUBLA=
 			</data>
 		</dict>
 		<key>Headers/JSH_InitInfo.h</key>
@@ -138,11 +138,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LcTCZWBrAoCXWDiMNTG8qXvreF4=
+			lUF1uo4ciOE1Hx0VMn/2AYbWJsI=
 			</data>
 			<key>hash2</key>
 			<data>
-			C/FkjWSRDXiG3QUdXR+qoMJpuKrtQUSUfEDwbNNVOsw=
+			0N9OIVMNqjgTAnq9qSqhb0jf8IMQHEoR6bI6jXl6f7s=
 			</data>
 		</dict>
 		<key>Headers/JSH_Navigate.h</key>
@@ -215,11 +215,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ghyUgUMjZlONbzk/MMefSarjPXA=
+			cf72p6CyWgfSm9JdY++Goedw8Os=
 			</data>
 			<key>hash2</key>
 			<data>
-			buPdxku955kAszaiqSEDfe0eSATIL4c9YemJ3/GFc4Q=
+			tMGGKOyrrTNr9CGRkJi+RDMRBhBN8SoEFCvpDpTXef8=
 			</data>
 		</dict>
 		<key>Headers/JSH_WebViewConfigDelegate.h</key>
