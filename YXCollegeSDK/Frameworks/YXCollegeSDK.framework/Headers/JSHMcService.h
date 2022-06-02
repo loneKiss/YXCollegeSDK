@@ -54,6 +54,8 @@ NS_ASSUME_NONNULL_BEGIN
 // 移除通知、观察者
 - (void)removeNotificationAndObserver;
 
+// 自动识别剪贴板内容
+-(void)checkoutClipBoard;
 
 /// 客户端/员工端/直销员端/售后端跳转营销学院V2.0
 /// @param params 参数:{@"expid":xxx,
