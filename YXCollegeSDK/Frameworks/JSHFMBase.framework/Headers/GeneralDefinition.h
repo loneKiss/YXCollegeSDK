@@ -40,6 +40,10 @@
 #define kShowMSG(text) [MBProgressHUD showHub:text toView:JSHmainWindow];
 /**数据加载失败,友好提示*/
 #define kShowNoNetworkMSG [MBProgressHUD showErr:@"请求出错，稍后重试。" toView:JSHmainWindow];
+//显示loading
+#define kShowLoading [MBProgressHUD showMsg:@"" toView:JSHmainWindow];
+//隐藏loading
+#define kHideLoading [MBProgressHUD hideHUDForView:JSHmainWindow];
 
 
 //根据十进制颜色和不透明度设置颜色
@@ -95,7 +99,7 @@
 
 //iPhoneX系列
 //判断刘海屏
-#define IS_FULL_SCREEN ([[UIApplication sharedApplication] statusBarFrame].size.height == 20 ? NO : YES)
+#define IS_FULL_SCREEN ([[UIApplication sharedApplication] statusBarFrame].size.height > 20 ? YES : NO)
 
 
 /*****判断navBar和tabBar代码*****/

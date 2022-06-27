@@ -63,7 +63,7 @@ NS_ASSUME_NONNULL_BEGIN
 ///                    @"refreshToken":xxx,
 ///                    @"studyTerminalCode":xxx,
 ///                    @"otherParams":@"&firstEnter=false"};
-/// @param path 具体h5路径,如h5/#/public/home?expurl=public,默认传nil
+/// @param path 具体h5路径,如public/home?expurl=public,默认传nil
 /// @param appDevice app终端 A:客户端 B:员工端 C:直销员端 D:售后兵端 E:售后员工端 
 /// @param versionType 0 生产、1 pre、-1 dev、2 dev2
 /// @return 营销学院controller
@@ -74,7 +74,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param params 参数:{@"expid":xxx,
 ///                    @"studyTerminalCode":xxx,
 ///                    @"otherParams":@"&firstEnter=false"};
-/// @param path 具体h5路径,如h5/#/public/home?expurl=public,默认传nil
+/// @param path 具体h5路径,如public/home?expurl=public,默认传nil
 /// @param versionType 0 生产、1 pre、-1 dev、2 dev2
 /// @return 营销学院controller
 + (id)marketingPlatformStartWithParams:(nonnull NSDictionary *)params h5Path:(nullable NSString *)path projectVersion:(NSInteger)versionType;
