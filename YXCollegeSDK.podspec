@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "YXCollegeSDK"
-spec.version      = "2.4.3"
+spec.version      = "2.4.4"
 spec.summary      = "YXCollegeSDK for IOS"
 spec.description  = "YXCollegeSDK.framework是一款致力于服务用户培训学习的sdk"
 spec.homepage     = "https://github.com/loneKiss/YXCollegeSDK"
@@ -25,9 +25,6 @@ end
 spec.requires_arc    = true
 
 spec.source_files = 'YXCollegeSDK/Headers/*.h'
-
-spec.dependency 'HDVideoClass_Remote','6.11.0' #CC视频sdk
-spec.dependency 'VODUpload','1.6.1' #阿里上传视频sdk
 
 # 图片，其他资源文件存放的路径，需要注意的是，xib，nib也属于资源文件
 spec.resource_bundles = {
