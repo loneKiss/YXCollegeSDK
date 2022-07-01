@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/DIYScanViewController.h</key>
+		<data>
+		ch9/WTLyL6wZlUjKJumiUJs2hB8=
+		</data>
 		<key>Headers/JSH_BaseComponent.h</key>
 		<data>
 		JtmtNI0FQ2UPJNQ3p7j6UFdCr3Y=
@@ -68,9 +72,33 @@
 		<data>
 		6fzUm7eZLuib0yf2lw8ARhMeza8=
 		</data>
+		<key>Headers/LBXPermission.h</key>
+		<data>
+		O0qA2UkeM+9cDmRzA1zIinfKQfw=
+		</data>
+		<key>Headers/LBXPermissionCamera.h</key>
+		<data>
+		iHaQJ3Y5D9biSRi8BnUUZ58ImCQ=
+		</data>
+		<key>Headers/LBXPermissionPhotos.h</key>
+		<data>
+		XTKU9MPCngW5XjAYPfaBxn4QIgo=
+		</data>
+		<key>Headers/LBXPermissionSetting.h</key>
+		<data>
+		zQlEtpqBzWx8hiI1mhjE1JdUou4=
+		</data>
+		<key>Headers/MT_SystemFunctions.h</key>
+		<data>
+		hqHF84U+x6FKsZyjc8eS3QE8tVQ=
+		</data>
 		<key>Headers/NSString+JSHCC.h</key>
 		<data>
 		V5WTNt9RbWDaanLz7ecd/VSlxAo=
+		</data>
+		<key>Headers/StyleDIY.h</key>
+		<data>
+		Vu/PGDxETuxVb4/dY2LhGE3aQwM=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -79,6 +107,17 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/DIYScanViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ch9/WTLyL6wZlUjKJumiUJs2hB8=
+			</data>
+			<key>hash2</key>
+			<data>
+			HX3ENGUVksyYc5bCRTzmE+G5oEIaAfo17QsSdGYm9Gk=
+			</data>
+		</dict>
 		<key>Headers/JSH_BaseComponent.h</key>
 		<dict>
 			<key>hash</key>
@@ -255,6 +294,61 @@
 			w+S0b42dUeEb3KYVltGSPl8JAwRsvu95irkryH2g8TY=
 			</data>
 		</dict>
+		<key>Headers/LBXPermission.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			O0qA2UkeM+9cDmRzA1zIinfKQfw=
+			</data>
+			<key>hash2</key>
+			<data>
+			DmseAxvvaEFDBAESDXL85R1bbrA4VCukhn2PPbFiYxQ=
+			</data>
+		</dict>
+		<key>Headers/LBXPermissionCamera.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iHaQJ3Y5D9biSRi8BnUUZ58ImCQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			fpPYT4kpz3ql/umpHosi4bubD+itLjasWKPELSSCFAU=
+			</data>
+		</dict>
+		<key>Headers/LBXPermissionPhotos.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XTKU9MPCngW5XjAYPfaBxn4QIgo=
+			</data>
+			<key>hash2</key>
+			<data>
+			lqHADOITnYOxYDZOCiY3spfDXBHhejy1iVHcvClxke8=
+			</data>
+		</dict>
+		<key>Headers/LBXPermissionSetting.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zQlEtpqBzWx8hiI1mhjE1JdUou4=
+			</data>
+			<key>hash2</key>
+			<data>
+			6SarAPZBhos/FGcgSJR47K96wGSxVwgXLubqeNQj3gY=
+			</data>
+		</dict>
+		<key>Headers/MT_SystemFunctions.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hqHF84U+x6FKsZyjc8eS3QE8tVQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			Bku0/ONDPoE6WPrgv68K6/dahbD6a3V1VHQPx8Ax12A=
+			</data>
+		</dict>
 		<key>Headers/NSString+JSHCC.h</key>
 		<dict>
 			<key>hash</key>
@@ -264,6 +358,17 @@
 			<key>hash2</key>
 			<data>
 			p5DBQO5g1C8mB/xTni3+UvsIXBHJZnAiqoIYuAQhj6U=
+			</data>
+		</dict>
+		<key>Headers/StyleDIY.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Vu/PGDxETuxVb4/dY2LhGE3aQwM=
+			</data>
+			<key>hash2</key>
+			<data>
+			lngA9fkfRCte6ViHpah+W+HUzdlYLxrfE5wGsTzayyI=
 			</data>
 		</dict>
 	</dict>
