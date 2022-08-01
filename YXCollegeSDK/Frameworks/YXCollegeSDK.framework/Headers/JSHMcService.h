@@ -63,21 +63,19 @@ NS_ASSUME_NONNULL_BEGIN
 ///                    @"refreshToken":xxx,
 ///                    @"studyTerminalCode":xxx,
 ///                    @"otherParams":@"&firstEnter=false"};
-/// @param path 具体h5路径,如public/home?expurl=public,默认传nil
 /// @param appDevice app终端 A:客户端 B:员工端 C:直销员端 D:售后兵端 E:售后员工端 
 /// @param versionType 0 生产、1 pre、-1 dev、2 dev2
 /// @return 营销学院controller
-+ (id)startWithParams:(nonnull NSDictionary *)params h5Path:(nullable NSString *)path deviceType:(nullable NSString *)appDevice projectVersion:(NSInteger)versionType;
++ (id)startWithParams:(nonnull NSDictionary *)params deviceType:(nullable NSString *)appDevice projectVersion:(NSInteger)versionType;
 
 /** 营销中台跳转营销学院 */
 /// 跳转营销学院V2.0
 /// @param params 参数:{@"expid":xxx,
 ///                    @"studyTerminalCode":xxx,
 ///                    @"otherParams":@"&firstEnter=false"};
-/// @param path 具体h5路径,如public/home?expurl=public,默认传nil
 /// @param versionType 0 生产、1 pre、-1 dev、2 dev2
 /// @return 营销学院controller
-+ (id)marketingPlatformStartWithParams:(nonnull NSDictionary *)params h5Path:(nullable NSString *)path projectVersion:(NSInteger)versionType;
++ (id)marketingPlatformStartWithParams:(nonnull NSDictionary *)params projectVersion:(NSInteger)versionType;
 
 /**
  @brief 获取sdk版本号
