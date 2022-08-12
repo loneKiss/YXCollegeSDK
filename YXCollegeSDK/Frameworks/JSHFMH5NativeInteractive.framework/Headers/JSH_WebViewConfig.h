@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @interface JSH_WebViewConfig : NSObject
@@ -41,6 +42,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSMutableDictionary * get_H5_PageMap;
 /**  h5_VC_Data */
 @property (nonatomic, strong) NSArray * get_H5_VCData;
+
+
+@property (nonatomic, strong) UIImage * webBackImage;
 
 @end
 
