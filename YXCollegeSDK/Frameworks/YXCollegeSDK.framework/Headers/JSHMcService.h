@@ -23,12 +23,19 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *nickName;
 //当前登录账号
 @property (nonatomic, copy) NSString *huiHuiNumber;
+//当前登录账号ID
+@property (nonatomic, copy) NSString *accountId;
 @property (nonatomic, copy) NSString *baseId;
 @property (nonatomic, copy) NSString *sourceId;
 @property (nonatomic, copy) NSString *sourceType;
 @property (nonatomic, copy) NSString *eduId;
 @property (nonatomic, copy) NSString *h5Path;
 @property (nonatomic, copy) NSString *code;
+
+/** 区分是否是分享弹框跳转的营销课堂 */
+@property(nonatomic , assign) BOOL isShareSkip;
+/** 分享跳转营销课堂路径url **/
+@property (nonatomic, copy) NSString *shareUrl;
 @property (assign, nonatomic) BOOL shouldNeedLandscape;//是否需要横屏
 /** app终端 A:客户端 B:员工端 C:直销员端 D:售后兵端 E:售后员工端  */
 @property (nonatomic, copy) NSString *appDevice;
@@ -68,14 +75,22 @@ NS_ASSUME_NONNULL_BEGIN
 /// @return 营销学院controller
 + (id)startWithParams:(nonnull NSDictionary *)params deviceType:(nullable NSString *)appDevice projectVersion:(NSInteger)versionType;
 
-/** 营销中台跳转营销学院 */
+/** 中台跳转营销学院 */
 /// 跳转营销学院V2.0
 /// @param params 参数:{@"expid":xxx,
 ///                    @"studyTerminalCode":xxx,
 ///                    @"otherParams":@"&firstEnter=false"};
 /// @param versionType 0 生产、1 pre、-1 dev、2 dev2
 /// @return 营销学院controller
-+ (id)marketingPlatformStartWithParams:(nonnull NSDictionary *)params projectVersion:(NSInteger)versionType;
++ (id)middleGroundStartWithParams:(nonnull NSDictionary *)params projectVersion:(NSInteger)versionType;
+
+/** 分享跳转营销学院
+ @param jumpUrl 跳转链接
+ @return 营销学院controller
+ */
+
++ (id)jumpToShareDetailWithUrl:(NSString *)jumpUrl;
+
 
 /**
  @brief 获取sdk版本号
