@@ -21,10 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *token;
 @property (nonatomic, assign) NSInteger versionType;
 @property (nonatomic, copy) NSString *nickName;
-//当前登录账号
-@property (nonatomic, copy) NSString *huiHuiNumber;
-//当前登录账号ID
-@property (nonatomic, copy) NSString *accountId;
+
 @property (nonatomic, copy) NSString *baseId;
 @property (nonatomic, copy) NSString *sourceId;
 @property (nonatomic, copy) NSString *sourceType;
@@ -61,8 +58,22 @@ NS_ASSUME_NONNULL_BEGIN
 // 移除通知、观察者
 - (void)removeNotificationAndObserver;
 
-// 自动识别剪贴板内容
--(void)checkoutClipBoard;
+/** 剪贴板跳转进行的回调 */
+@property(nonatomic , copy) void(^clipBoardFinshBlock)(void);
+
+/**
+ 识别剪贴板内容
+ @param userId 当前登录账号ID
+ @param appDevice app终端 A:客户端 B:员工端 C:直销员端 D:售后兵端 E:售后员工端
+ @param versionType 0 生产、1 pre、-1 dev、2 dev2
+ @param completionBlock 识别完剪贴板完成跳转的回调
+ */
+-(void)checkoutClipBoardWithUserId:(nonnull NSString *)userId
+                        deviceType:(nonnull NSString *)appDevice
+                    projectVersion:(NSInteger)versionType Completion:(void(^)(void))completionBlock;
+
+//当前登录账号ID
+@property (nonatomic, copy) NSString *userId;
 
 /// 客户端/员工端/直销员端/售后端跳转营销学院V2.0
 /// @param params 参数:{@"expid":xxx,
@@ -73,7 +84,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param appDevice app终端 A:客户端 B:员工端 C:直销员端 D:售后兵端 E:售后员工端 
 /// @param versionType 0 生产、1 pre、-1 dev、2 dev2
 /// @return 营销学院controller
-+ (id)startWithParams:(nonnull NSDictionary *)params deviceType:(nullable NSString *)appDevice projectVersion:(NSInteger)versionType;
++ (id)startWithParams:(nonnull NSDictionary *)params deviceType:(nonnull NSString *)appDevice projectVersion:(NSInteger)versionType;
 
 /** 中台跳转营销学院 */
 /// 跳转营销学院V2.0
