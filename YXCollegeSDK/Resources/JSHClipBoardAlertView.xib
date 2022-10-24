@@ -47,34 +47,41 @@
                                 <constraint firstAttribute="width" secondItem="lcn-Yu-5aW" secondAttribute="height" multiplier="277:145" id="lGh-r9-Box"/>
                             </constraints>
                         </imageView>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nph-zR-SLd">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ayV-UQ-uC0">
                             <rect key="frame" x="17.5" y="240" width="309" height="40"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="去参加" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKb-tO-KmU">
+                                    <rect key="frame" x="20" y="0.0" width="269" height="40"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="40" id="2FC-TG-8dV"/>
+                                <constraint firstItem="BKb-tO-KmU" firstAttribute="leading" secondItem="ayV-UQ-uC0" secondAttribute="leading" constant="20" id="4XH-YS-2iN"/>
+                                <constraint firstItem="BKb-tO-KmU" firstAttribute="top" secondItem="ayV-UQ-uC0" secondAttribute="top" id="N1r-ib-Vhk"/>
+                                <constraint firstAttribute="bottom" secondItem="BKb-tO-KmU" secondAttribute="bottom" id="Sh2-vH-jM6"/>
+                                <constraint firstAttribute="height" constant="40" id="Zlu-0V-uYn"/>
+                                <constraint firstAttribute="trailing" secondItem="BKb-tO-KmU" secondAttribute="trailing" constant="20" id="jj5-3w-2ok"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
-                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                            <state key="normal" title="去参加"/>
-                            <connections>
-                                <action selector="lookDetailAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="fgp-OQ-io1"/>
-                            </connections>
-                        </button>
+                        </view>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
-                        <constraint firstItem="nph-zR-SLd" firstAttribute="leading" secondItem="N2N-iS-d5J" secondAttribute="leading" constant="17.5" id="18W-Oj-AM8"/>
-                        <constraint firstAttribute="trailing" secondItem="nph-zR-SLd" secondAttribute="trailing" constant="17.5" id="1Bc-gE-bAJ"/>
                         <constraint firstItem="RfF-Hh-YHR" firstAttribute="centerY" secondItem="1BL-v4-0NW" secondAttribute="centerY" id="4Hg-lR-WeJ"/>
                         <constraint firstItem="RfF-Hh-YHR" firstAttribute="leading" secondItem="1BL-v4-0NW" secondAttribute="trailing" constant="6" id="9Yk-07-F6W"/>
+                        <constraint firstItem="ayV-UQ-uC0" firstAttribute="top" secondItem="lcn-Yu-5aW" secondAttribute="bottom" constant="16" id="DXY-Sd-itR"/>
                         <constraint firstAttribute="trailing" secondItem="lcn-Yu-5aW" secondAttribute="trailing" constant="11" id="Gd8-u1-OpR"/>
                         <constraint firstItem="1BL-v4-0NW" firstAttribute="top" secondItem="N2N-iS-d5J" secondAttribute="top" constant="10" id="IJT-z1-0XZ"/>
-                        <constraint firstAttribute="bottom" secondItem="nph-zR-SLd" secondAttribute="bottom" constant="16" id="L9G-4A-KuU"/>
+                        <constraint firstAttribute="trailing" secondItem="ayV-UQ-uC0" secondAttribute="trailing" constant="17.5" id="N1O-31-pHI"/>
                         <constraint firstItem="UBC-bG-1dM" firstAttribute="leading" secondItem="RfF-Hh-YHR" secondAttribute="trailing" constant="3" id="QI4-tE-b4N"/>
+                        <constraint firstAttribute="bottom" secondItem="ayV-UQ-uC0" secondAttribute="bottom" constant="16" id="boB-xs-3Ou"/>
                         <constraint firstItem="UBC-bG-1dM" firstAttribute="centerY" secondItem="RfF-Hh-YHR" secondAttribute="centerY" id="iTR-19-Q0t"/>
+                        <constraint firstItem="ayV-UQ-uC0" firstAttribute="leading" secondItem="N2N-iS-d5J" secondAttribute="leading" constant="17.5" id="mvO-z1-Nv0"/>
                         <constraint firstItem="lcn-Yu-5aW" firstAttribute="top" secondItem="1BL-v4-0NW" secondAttribute="bottom" constant="8" id="oC5-xG-Pgk"/>
                         <constraint firstItem="1BL-v4-0NW" firstAttribute="leading" secondItem="N2N-iS-d5J" secondAttribute="leading" constant="11" id="pRj-J0-Q8f"/>
                         <constraint firstItem="lcn-Yu-5aW" firstAttribute="leading" secondItem="N2N-iS-d5J" secondAttribute="leading" constant="11" id="sGO-Es-23v"/>
-                        <constraint firstItem="nph-zR-SLd" firstAttribute="top" secondItem="lcn-Yu-5aW" secondAttribute="bottom" constant="16" id="zRr-c6-TNv"/>
                     </constraints>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fX-SO-s2F">
@@ -109,14 +116,15 @@
             <connections>
                 <outlet property="closeBtnImage" destination="EwC-sD-fVE" id="yQE-KJ-QVb"/>
                 <outlet property="contentBackView" destination="N2N-iS-d5J" id="5sa-PW-AmZ"/>
-                <outlet property="lookBtn" destination="nph-zR-SLd" id="DR9-5f-xJY"/>
+                <outlet property="lookBtnTitle" destination="BKb-tO-KmU" id="QoO-I3-o55"/>
+                <outlet property="lookBtnView" destination="ayV-UQ-uC0" id="8cP-ok-CdX"/>
                 <outlet property="pictureImageView" destination="1BL-v4-0NW" id="Hzr-3H-WgO"/>
                 <outlet property="shareMainImageView" destination="lcn-Yu-5aW" id="bCZ-Ai-ZSh"/>
                 <outlet property="shareSubTitleLabel" destination="UBC-bG-1dM" id="Vgl-R5-t0v"/>
                 <outlet property="shareTitleLabel" destination="RfF-Hh-YHR" id="La7-QD-dzI"/>
                 <outlet property="subTitleWidth" destination="CNO-l0-KQ6" id="rI0-V9-Jpu"/>
             </connections>
-            <point key="canvasLocation" x="-206" y="82"/>
+            <point key="canvasLocation" x="-207.24637681159422" y="81.696428571428569"/>
         </view>
     </objects>
     <resources>
