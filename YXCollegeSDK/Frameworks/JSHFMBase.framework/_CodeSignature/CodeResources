@@ -10,11 +10,15 @@
 		</data>
 		<key>Headers/GeneralDefinition.h</key>
 		<data>
-		cqLNxLMzyOj+LsHT9O9cpl9BmyQ=
+		ARSYpDfX4Uoo/UzuTAt0dQc+Ha0=
+		</data>
+		<key>Headers/JSHFMBase.h</key>
+		<data>
+		CAqOxNwEBvzlHtf0s4GMrNTbcyk=
 		</data>
 		<key>Headers/JSH_Singleton.h</key>
 		<data>
-		uZykaWDaow6mYpLRaxA7TUK6MlA=
+		I1EKvtfKwpBdrOynJMgk7WEowps=
 		</data>
 		<key>Headers/LCBaseTableView.h</key>
 		<data>
@@ -78,7 +82,7 @@
 		</data>
 		<key>Headers/NSUserDefaults+Expansion.h</key>
 		<data>
-		VcgtEEL/LUP7yo0UqMIPUqGx3as=
+		e0K8jY3i4W+mMPqVuAI0S97T3Ok=
 		</data>
 		<key>Headers/Single.h</key>
 		<data>
@@ -102,7 +106,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0K0fKVJfpUClGxiyPr2U0g4WNNY=
+		oFoBWU2QPYfT5+O+rZQpDz5C7+U=
+		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		sly5yrXiJNoQfbH6qJvhWBhU2yY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -122,22 +130,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cqLNxLMzyOj+LsHT9O9cpl9BmyQ=
+			ARSYpDfX4Uoo/UzuTAt0dQc+Ha0=
 			</data>
 			<key>hash2</key>
 			<data>
-			jvMS90QvzU3FEYdU4pGFhudvOafAJib6c5ByUABLGnQ=
+			5zmXAYBxwZ6NNCpp4ox4s63bVU1Ol0DTr2m0c+H/4Lk=
+			</data>
+		</dict>
+		<key>Headers/JSHFMBase.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CAqOxNwEBvzlHtf0s4GMrNTbcyk=
+			</data>
+			<key>hash2</key>
+			<data>
+			K5LcH4NLDldJWt1T/bUeeD2Akj0heMIJfC5oe8y3fg4=
 			</data>
 		</dict>
 		<key>Headers/JSH_Singleton.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uZykaWDaow6mYpLRaxA7TUK6MlA=
+			I1EKvtfKwpBdrOynJMgk7WEowps=
 			</data>
 			<key>hash2</key>
 			<data>
-			lt4fa3bZFjBP20QcK71r1EsxYtMN1U1iUU1gyXH2WIE=
+			YoL/OuYrv9MxOVnUgP8vBprxPMWSM1DqWL/dTdpGOB4=
 			</data>
 		</dict>
 		<key>Headers/LCBaseTableView.h</key>
@@ -309,11 +328,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VcgtEEL/LUP7yo0UqMIPUqGx3as=
+			e0K8jY3i4W+mMPqVuAI0S97T3Ok=
 			</data>
 			<key>hash2</key>
 			<data>
-			paWOWGox6iP8m456cBjAoITQW2dIkZeWisYbgPub1sY=
+			/rTfUw/+WMPl8di1vkxVtiufbgI4saPQbbQsd9UTx0A=
 			</data>
 		</dict>
 		<key>Headers/Single.h</key>
@@ -369,6 +388,17 @@
 			<key>hash2</key>
 			<data>
 			aLf8IdfKBbBKcfAqlI29HOPzXG86zkC5OhtXiK+kt7U=
+			</data>
+		</dict>
+		<key>Modules/module.modulemap</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sly5yrXiJNoQfbH6qJvhWBhU2yY=
+			</data>
+			<key>hash2</key>
+			<data>
+			sABUIzX3kuGjbXHkU3xN2qGhQqsUEjpuyN54An/luuU=
 			</data>
 		</dict>
 	</dict>

@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/JSH_InitInfo.h</key>
 		<data>
-		4BHNsK12lJXx3OF6yElsqB5Ekk8=
+		PnXgQd570f3u5sf3D7X0QIGeQR0=
 		</data>
 		<key>Headers/JSH_MessageCallbackDelegate.h</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/JSH_WebViewConfig.h</key>
 		<data>
-		cf72p6CyWgfSm9JdY++Goedw8Os=
+		1rZxTVU9d0RhhBsfwDizk5TrER4=
 		</data>
 		<key>Headers/JSH_WebViewConfigDelegate.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pyb/VJQFGRGvj8Ht8aJYPqzoS9o=
+		le/iuES0NqifxrZ6IPF4ZiGFFQw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -116,11 +116,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4BHNsK12lJXx3OF6yElsqB5Ekk8=
+			PnXgQd570f3u5sf3D7X0QIGeQR0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Srt6KmL4Ma/dNHyYBpDrt4wwEJqQ7WZ40Qo+S+brzB8=
+			/cBCFeKtj+V59b9JV7RRIGserQj17fFKg2zzez4Cbug=
 			</data>
 		</dict>
 		<key>Headers/JSH_MessageCallbackDelegate.h</key>
@@ -215,11 +215,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cf72p6CyWgfSm9JdY++Goedw8Os=
+			1rZxTVU9d0RhhBsfwDizk5TrER4=
 			</data>
 			<key>hash2</key>
 			<data>
-			tMGGKOyrrTNr9CGRkJi+RDMRBhBN8SoEFCvpDpTXef8=
+			MDD/bGZ7x1AsVx4rS85LA+bQHWezkzGDh6Csxk0nV74=
 			</data>
 		</dict>
 		<key>Headers/JSH_WebViewConfigDelegate.h</key>

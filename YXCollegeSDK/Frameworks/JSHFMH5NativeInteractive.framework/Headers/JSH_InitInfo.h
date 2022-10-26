@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -43,6 +43,10 @@ NS_ASSUME_NONNULL_BEGIN
 + (void) setH5ToVCWithData:(NSDictionary *) data;
 
 
+
+/// 设置第三方浏览器返回按钮图片资源
+/// @param webBackImage 返回图片资源
++ (void) setWebBackImageData:(UIImage *) webBackImage;
 
 @end
 
