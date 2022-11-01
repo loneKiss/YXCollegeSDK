@@ -1,6 +1,0 @@
-framework module JSHFMBase {
-  umbrella header "JSHFMBase.h"
-
-  export *
-  module * { export * }
-}

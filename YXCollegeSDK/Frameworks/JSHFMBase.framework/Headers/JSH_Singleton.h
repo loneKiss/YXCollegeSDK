@@ -20,8 +20,6 @@ interfaceSingle(Singleton)
 // 当前控制器页面名字
 @property (nonatomic, copy) NSString *  pageName;
 
-@property (nonatomic, strong) NSDictionary * mediumParams;
-
 @end
 
 NS_ASSUME_NONNULL_END

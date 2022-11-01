@@ -99,7 +99,7 @@
 
 //iPhoneX系列
 //判断刘海屏
-#define IS_FULL_SCREEN ([[UIApplication sharedApplication] statusBarFrame].size.height > 20 ? YES : NO)
+#define IS_FULL_SCREEN ([[UIApplication sharedApplication] statusBarFrame].size.height == 20 ? NO : YES)
 
 
 /*****判断navBar和tabBar代码*****/
