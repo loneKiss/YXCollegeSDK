@@ -50,8 +50,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) void (^changeGuideStatusHandler)(void);
 /** 微信分享 */
 @property (nonatomic, copy) void (^WeChatShareBlock)(NSMutableDictionary *message);
-+ (instancetype)shareInstance;
 
+/** 创建单例的方法 */
++ (instancetype)shareInstance;
+/** 销毁单例的方法 */
++ (void)destoryInstance;
 // 添加通知、观察者
 - (void)addNotificationAndObserver;
 
